@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.applemacbookair.bannerexample.MainActivity">
+
+    <com.example.moeidbannerlibrary.banner.BannerLayout
+        android:id="@+id/Banner"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mainPageJobSectorRecyclerView"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        app:autoPlaying="true"
+        app:centerScale="1.6"
+        app:itemSpace="0"
+        app:moveSpeed="0.5"
+        app:showIndicator="true"
+
+
+     >
+
+
+    </com.example.moeidbannerlibrary.banner.BannerLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
