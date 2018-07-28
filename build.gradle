@@ -4,7 +4,11 @@ buildscript {
 
     version = '1.0'
     repositories {
-        google()
+        maven {
+            url 'https://maven.google.com'
+            // An alternative URL is 'https://dl.google.com/dl/android/maven2/'
+        }
+
         jcenter()
         mavenCentral()
     }
@@ -21,7 +25,11 @@ buildscript {
 
 allprojects {
     repositories {
-        google()
+        maven {
+            url 'https://maven.google.com'
+            // An alternative URL is 'https://dl.google.com/dl/android/maven2/'
+        }
+
         jcenter()
     }
 }
